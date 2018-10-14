@@ -21,8 +21,8 @@ export default class ClassDetail extends Component {
 		return(
             <div className="second-part">           
                 <div className="welcome-message"> {this.props.courseID} </div>
-                <div className="bottom-welcome-message"> These are your classmates in {this.props.courseID}! </div>
-                <ul>
+                <div className="bottom-welcome-message"> These are your classmates taking {this.props.courseID}! </div>
+                <ul className="student-list">
                     {this.buildOptions()}
                 </ul>
             </div>

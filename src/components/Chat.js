@@ -6,8 +6,8 @@ export default class Chat extends Component {
 	render(){
 		return(
             <div className="second-part">           
-                <div className="welcome-message">SORRY,</div>
-                <div className="bottom-welcome-message">This will be available soon.</div>
+                <div className="welcome-message">CHAT</div>
+                <div className="bottom-welcome-message">Sorry, this feature will be available soon.</div>
             </div>
 
         );
