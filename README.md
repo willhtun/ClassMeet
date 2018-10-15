@@ -1,2 +1,2 @@
 # ClassMeet
-Find your classmates to ace your classes!
+Find your classmates and ace your classes!
