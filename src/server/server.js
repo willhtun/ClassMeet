@@ -3,11 +3,13 @@ const path = require('path');
 const open = require('open');
 const config = require('../../webpack.config');
 const webpack = require('webpack');
+const cors = require('cors');
 
 const port = 5000;
 const app = express();
 const compiler = webpack(config);
 
+app.use(cors())
 app.use(require('webpack-dev-middleware')(compiler, {
     noInfo: true,
     publicPath: config.output.publicPath
